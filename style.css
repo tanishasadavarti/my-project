@@ -1,0 +1,361 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    padding: 0px 30px;
+    background-color: rgb(241, 241, 241);
+}
+
+.icon {
+    padding: 10px;
+}
+
+.icon i {
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+
+
+.logo-img img {
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+}
+
+.logo-img {
+    margin: auto;
+}
+
+
+ul li a {
+    font-size: 20px;
+
+}
+
+.shopping img {
+    width: 20px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+
+}
+
+ul li a {
+    font-size: 16px;
+}
+
+.navbar {
+    margin: auto;
+}
+
+.line {
+    font-size: 19px;
+}
+
+.made img {
+    width: 100%;
+    height: 100%;
+}
+
+.seller {
+    font-size: 26px;
+}
+
+.img {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    background-image: url('img/img1.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.box {
+    width: 18rem;
+}
+
+.box:hover {
+    .img {
+        background-image: url('img/img2.webp');
+        visibility: visible;
+    }
+
+    .img2 {
+        background-image: url('img/img4.webp');
+    }
+
+    .img3 {
+        background-image: url('img/img6.webp');
+    }
+
+    .img4 {
+        background-image: url('img/img8.webp');
+    }
+
+    p {
+        visibility: hidden;
+    }
+}
+
+.box button {
+    background-color: gray;
+    visibility: hidden;
+}
+
+.box p {
+    display: inline;
+}
+
+.box i {
+    font-size: 20px;
+}
+
+.img2 {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    background-image: url('https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/t/h/thedoubleshotovalblowdryerbrush_1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img3 {
+    height: 300px;
+    width: 100%;
+    background-image: url('https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/t/h/thedoubleshotovalblowdryerbrush_1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img4 {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    background-image: url('https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/t/r/triplesec3in1finishingspraymain_1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.one {
+    background-color: #fff8ce;
+    width: 100%;
+    height: 500px;
+}
+
+.slider-con h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(66, 66, 66);
+}
+
+.slider-con p {
+    color: rgb(66, 66, 66);
+    font-size: 22px;
+}
+
+.slider-con a {
+    background-color: rgb(73, 73, 73);
+    text-decoration: none;
+    padding: 8px 70px;
+    color: white;
+    margin: 100px;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left img {
+    width: 100%;
+}
+
+.level1 {
+    background-color: #eceaeb;
+}
+
+.right {
+    text-align: center;
+}
+
+.right a {
+    padding: 8px 80px;
+    background: gray;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.right a:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.right img {
+    width: 100%;
+}
+
+.level2 {
+    background-color: #f7957b;
+}
+
+.left {
+    text-align: center;
+}
+
+.left h1 {
+    color: white;
+}
+
+.left a {
+    padding: 8px 80px;
+    background: gray;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.left a:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.disbox a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.disbox a:hover {
+    content: '';
+    width: 30px;
+    border-bottom: 1px solid black;
+}
+
+.update {
+    margin: auto;
+    text-align: center;
+
+    p {
+        font-size: 18px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+}
+.form a
+{
+    background-color: rgb(87, 87, 87);
+    color: white;
+    padding: 6px 100px;
+    transition: all 0.5s ease-in-out;
+}
+.form a:hover
+{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.wrapper .input-data
+{
+    height: 40px;
+    width: 100%;
+    position: relative;
+
+}
+.wrapper .input-data input
+{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+   
+}
+
+.wrapper .input-data label
+{
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    left: -15%;
+    color: gray;
+    pointer-events: none;
+    
+}
+.input-data input:focus ~ label{
+    transform: translateY(-20px);
+}
+.button a
+{
+    padding: 10px 40px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.button a:hover
+{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.logo-line
+{
+    height: 150px;
+    color: black;
+    border: 1px solid black;
+
+}
+.logos i
+{
+    font-size: 20px;
+}

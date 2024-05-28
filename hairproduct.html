@@ -1,0 +1,266 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <a href="index.html"></a>
+    <style>
+      .fecth_left p{
+        font-size: 14px;
+      }
+      h6
+      {
+        text-align: left; 
+      }
+      .images
+      {
+        position: relative;
+      }
+      .images 
+      {
+        .hover_image
+        {
+          display: none;
+          top: 0;
+          position: absolute;
+          opacity: 0;
+          transition: opacity 0.3s ease-in-out;
+        }
+       
+      }
+      .images:hover .hover_image
+      {
+        opacity: 1;
+        display: block;
+      }
+      .box
+      {
+        h6
+        {
+          text-decoration: none;
+        }
+      }
+      
+     
+     
+    </style>
+    
+</head>
+<body>
+    <header class="d-flex ">
+        <div class="container-fluid d-flex btn-header">
+            <button class="btn bg-light ps-4 pe-4 pt-2 pb-2 m-1"> SEIVECES</button>
+            <button class="btn bg-light ps-4 pe-4 pt-2 pb-2 m-1"> BOOK</button>
+            <button class="btn bg-light ps-4 pe-4 pt-2 pb-2 m-1"> SHOP</button>
+        </div>
+        <div class="icon d-flex">
+            <div class="search"><i class="bi bi-search"></i></div>
+            <div class="profile"><a href="login.html"><i class="bi bi-person text-dark"></i></a></div>
+            <div class="location"><i class="bi bi-geo-alt"></i></div>
+        </div>
+    </header>
+    <section class="d-flex logo  ">
+        <div class="logo-img"><img src="img/drybar.svg" alt=""></div>
+    </section>
+    <div class="shopping "><a href="addtocart.html"><img src="img/shopping-bag.svg" alt=""></a></div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse m-auto" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto ">
+            <li class="nav-item pe-2 ps-2">
+              <a class="nav-link active " aria-current="page" href="hairproduct.html"style="font-size:18px;font-weight:bold;">Hair Products</a>
+            </li>
+            <li class="nav-item  pe-2 ps-2">
+              <a class="nav-link active" aria-current="page" href="#"style="font-size:18px;font-weight:bold;">Hair Tools</a>
+            </li>
+            <li class="nav-item  pe-2 ps-2">
+              <a class="nav-link active" aria-current="page" href="#"style="font-size:18px;font-weight:bold;">Benefits</a>
+            </li>
+            <li class="nav-item  pe-2 ps-2">
+              <a class="nav-link active" aria-current="page" href="#"style="font-size:18px;font-weight:bold;">New</a>
+            </li>
+            <li class="nav-item pe-2 ps-2">
+              <a class="nav-link active" aria-current="page" href="#"style="font-size:18px;font-weight:bold;">How To & Inspo</a>
+            </li>
+          </ul>
+          <div class="shopping d-sm-block d-md-none"><img src="img/shopping-bag.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="bg-light">
+      <div class="col-7 m-auto p-2">
+        <a href="" class="p-3 text-dark text-decoration-none" ><img src="https://www.drybar.com/media/wysiwyg/value_proposition_bar/delivery.png" alt=""> Free Shipping on all Purchases</a>
+        <a href="" class="p-3 text-dark text-decoration-none"><img src="https://www.drybar.com/media/wysiwyg/value_proposition_bar/policy.png"alt=""> 60 Day Return Policy</a>
+        <a href="" class="p-3 text-dark text-decoration-none"> <img src="https://www.drybar.com/media/wysiwyg/value_proposition_bar/tablet.png" alt="">Subscribe for Special Offers</a>
+
+      </div>
+    </section>
+
+
+    <div class="row col-12">
+      <div class="col-3 fecth_left">
+        <div class="container">
+          <p>Drybar / Hair Products / All Hair Products</p><hr>
+          <div class="accordion" id="1">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  price
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <input type="radio"> Under $25.00(12) <br>
+                  <input type="radio"> Under $25.00(12) <br>
+                  <input type="radio"> Under $25.00(12) <br>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Benefit
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <input type="checkbox"> Cleanse & Condition(16) <br>
+                  <input type="checkbox"> Color Care(2)<br>
+                  <input type="checkbox"> Extend Your Blowout (11)<br>
+                  <input type="checkbox"> Multi-Purpose (4)                  <br>
+                  <input type="checkbox"> Smooth & Shine (9)                  (11)<br>
+                  <input type="checkbox"> Texture (3)                  <br>
+                  <input type="checkbox"> Treat & Protect (7)<br>
+                  <input type="checkbox"> Volume(9)<br>
+                  <input type="checkbox"> Curl (3) <br>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="Formulated">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Formulated Without
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <input type="checkbox"> Paraben Free (47) <br>
+                  <input type="checkbox"> Sulfate Free (43)<br>
+                  <input type="checkbox"> Phthalate Free (47)<br>
+                  <input type="checkbox"> Keratin Free(38)<br>
+                  <input type="checkbox"> Gluten Free(38)<br>
+                  <input type="checkbox"> Nut Free(42)<br>
+                  <input type="checkbox"> Honey Free(42)<br>
+                  <input type="checkbox"> Vegan(40)<br>
+                  <input type="checkbox"> Cruelty Free (45)<br>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="Formulated">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                  Formulated Without
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <input type="checkbox"> Blanc(16)<br>
+                  <input type="checkbox"> Coconut Colada(8)<br>
+                  <input type="checkbox"> Grapefruit Mimosa(2)<br>
+                  <input type="checkbox"> Lush(5)<br>
+                  <input type="checkbox"> Noir(8)<br>
+                  <input type="checkbox"> Original(15)<br>
+                  <input type="checkbox"> Sangria Spritzer(2)<br>
+                  <input type="checkbox">Vanilla Bourbon(2)<br>
+                  <input type="checkbox"> Fragrance Free(1)<br>
+                  <input type="checkbox"> Petal(4)<br>
+                  <input type="checkbox"> Velvet(4)<br>
+                  <input type="checkbox"> Fragrance Free(1)<br>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="Formulated">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+                  Formulated Without
+                </button>
+              </h2>
+              <div id="collapsefive" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <input type="radio"> Under $25.00(12)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-9">
+        <div class="mainsec m-auto d-flex">
+
+          <h2 class=" m-auto"style="font-size:20px">ALL HAIR CARE PRODUCTS</h2>
+          <div class="sort pt-3">
+            <select name="" id="price"style="padding:10px 20px;box-shadow:0px 0px 5px gray">
+               <option value=""><a href=""id="sort-low-to-high">sort: price : low to high</a></option>
+                <option value=""id="sort-high-to-low">price:high to low</option>
+            </select>
+        </div>
+        </div>
+        <div class="fetch mt-5">
+        <div id="card-link" class="container" style="display: flex; flex-wrap: wrap; "></div>
+        </div>
+      </div>
+    </div>
+    <div class="shopping "><img src="img/shopping-bag.svg" alt=""></div>
+    <script>
+      let productdata = []
+         function Fetchdata(){
+        fetch("https://internship-backend-2-ifw7.onrender.com/products")   
+            .then((res) => res.json())
+            .then((data) => cardlist(data))
+            .catch((err) => console.log(err))
+    }
+    Fetchdata()
+
+    function cardlist(data){
+        const store=data.map((el)=>singlecard(el.name,el.image,el.regular_price,el.sale_price))
+        document.getElementById("card-link").innerHTML=store.join('');
+
+    }
+    
+    function singlecard(name,image,regular_price,sale_price){
+       let card=`
+       <a href="decription.html?image=${encodeURIComponent(image[0])}&name=${encodeURIComponent(name)}&regular_price=${encodeURIComponent(regular_price)}&sale_price=${encodeURIComponent(sale_price)}" style="text-decoration: none;">
+       <div class="col-4">
+       <div class="box col-11">
+        <div class="images">
+        <img src="${image[0]}"class="main_image"width="100%   ">
+        <img src="${image[1]}"class="hover_image"width="100%">
+      </div>
+        <h6 style="color:black"> ${name} </h6>
+        <h6 class="text-center"style="color:black;"> ${regular_price}-${sale_price.dollars}</h6>
+      </a>
+   </div>
+    </div>   
+       `
+       return card
+    }
+
+
+    </script>
+</body>
+</html>

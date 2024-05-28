@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="style.css">
+  <a href="login.html"></a>
+  <a href="hairproduct.html"></a>
+</head>
+
+<body>
+  <header class="d-flex ">
+    <div class="container-fluid d-flex btn-header">
+      <button class="btn bg-light ps-4 pe-4 pt-2 pb-2 m-1"> SEIVECES</button>
+      <button class="btn bg-light ps-4 pe-4 pt-2 pb-2 m-1"> BOOK</button>
+      <button class="btn bg-light ps-4 pe-4 pt-2 pb-2 m-1"> SHOP</button>
+    </div>
+    <div class="icon d-flex">
+      <div class="search"><i class="bi bi-search"></i></div>
+      <div class="profile"><i class="bi bi-person"></i></div>
+      <div class="location"><i class="bi bi-geo-alt"></i></div>
+    </div>
+  </header>
+  <section class="d-flex logo  ">
+    <div class="logo-img"><img src="img/drybar.svg" alt=""></div>
+  </section>
+  <div class="shopping "><a href="addtocart.html"><img src="img/shopping-bag.svg" alt=""></a></div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse m-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto ">
+          <li class="nav-item pe-2 ps-2">
+            <a class="nav-link active " aria-current="page" href="hairproduct.html"style="font-size:18px;font-weight:bold;">Hair Products</a>
+          </li>
+          <li class="nav-item  pe-2 ps-2">
+            <a class="nav-link active" aria-current="page" href="#"style="font-size:18px;font-weight:bold;">Hair Tools</a>
+          </li>
+          <li class="nav-item  pe-2 ps-2">
+            <a class="nav-link active" aria-current="page" href="#"style="font-size:18px;font-weight:bold;">Benefits</a>
+          </li>
+          <li class="nav-item  pe-2 ps-2">
+            <a class="nav-link active" aria-current="page" href="#"style="font-size:18px;font-weight:bold;">New</a>
+          </li>
+          <li class="nav-item pe-2 ps-2">
+            <a class="nav-link active" aria-current="page" href="#"style="font-size:18px;font-weight:bold;">How To & Inspo</a>
+          </li>
+        </ul>
+        <div class="shopping d-lg-none d-sm-block"></div>
+      </div>
+      </div>
+    </div>
+  </nav>
+  <section class="bg-light">
+    <div class="col-7 m-auto p-2">
+      <a href="" class="p-3 text-dark text-decoration-none"><img
+          src="https://www.drybar.com/media/wysiwyg/value_proposition_bar/delivery.png" alt=""> Free Shipping on all
+        Purchases</a>
+      <a href="" class="p-3 text-dark text-decoration-none"><img
+          src="https://www.drybar.com/media/wysiwyg/value_proposition_bar/policy.png" alt=""> 60 Day Return Policy</a>
+      <a href="" class="p-3 text-dark text-decoration-none"> <img
+          src="https://www.drybar.com/media/wysiwyg/value_proposition_bar/tablet.png" alt="">Subscribe for Special
+        Offers</a>
+
+    </div>
+  </section>
+  <section class="bg-warning">
+    <div class="col-6 m-auto line ">
+      <a href="" class="text-decoration-none text-dark p-1 "><b>Mother's Day BOGO Event:</b> Choose your FREE full-sized
+        product in your cart!</a>
+    </div>
+  </section>
+  <section class="d-sm-none d-md-none d-lg-block">
+    <img src="https://www.drybar.com/media/wysiwyg/misc_banners/BonusPerk_ChooseSample_Desktop_Banner_Slim.jpg" alt=""
+      class="pt-5">
+  </section>
+  <section class="bg-light " style="height:800px">
+    <div class="col-5 m-auto pt-5">
+
+      <form id="login" class="text-center ">
+        <h3 class="text-center" style="font-size:30px;font-family:aria">CUSTOMER LOGIN</h3>
+        <p class="">Registered Customers</p>
+        <p class="login-text">Enter your email and password to login:</p>
+        <div class="email mt-3">
+            <input id="email"  type="email" placeholder="E-mail"style="width:70%;height:50px;padding:20px">
+            <p class="text-danger" id="emailerror"></p>
+        </div>
+        <div class="Pass mt-3">
+            <input  id="password" type="password" placeholder="password"style="width:70%;height:50px;padding:20px">
+            <p class="text-danger" id="passerror"></p>
+        </div>
+        <div class="login-btn mt-3">
+            <button type="submit"style="width:50%;padding:10px;"class="bg-warning">LOGIN</button>
+        </div>
+        <span class="ms-5 ps-5">Forgot Your Password?</span> <br>
+        <p style="font-size: 23px;" class="mt-3">New Customers</p> <br>
+        <p>Creating an account has many benefits: check <br> out faster, keep more than one address, track <br> orders
+          and more.</p> <br>
+        <a href="" class="text-decoration-none">Create an Account</a> <br>
+        <p style="font-size: 23px;" class="mt-3">Drybar Franchise Shop Customers</p> <br>
+        <p> For appointments and Barfly memberships, visit <br> <u>drybarshops.com</u> and login to your account.</p>
+    </form>
+    </div>
+
+  </section>
+  <section >
+    <div class="container mt-5 d-sm-none d-md-block col-12">
+      <!-- <div class="col-2">
+        <img src="img/drybar.svg" alt="">
+      </div> -->
+      <div class="col-12 row">
+      <div class="col-3 p-3">
+        <h2 style="font-size: 18px;">HELP</h2>
+        <hr>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">CHECK ORDER STATUS</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">RETURNS & EXCHANGES</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">SHIPPING & DELIVERY</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">SAFETY DATA SHEETS</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">PROMOTIONS</a>
+      </div>
+      <div class="col-3 p-3">
+        <h2 style="font-size: 18px;">INFORMATION</h2>
+        <hr>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">SPECIAL OFFERS</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">WARRANTY</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">GLOSSARY</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">WHAT'S A BLOWOUT</a><br>
+      </div>
+      <div class="col-3 p-3">
+        <h2 style="font-size: 18px;">ABOUT</h2>
+        <hr>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">CHECK ORDER STATUS</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">RETURNS & EXCHANGES</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">SHIPPING & DELIVERY</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">SAFETY DATA SHEETS</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">PROMOTIONS</a>
+      </div>
+      <div class="col-3 p-3">
+        <h2 style="font-size: 18px;">LET’S BE FRIENDS</h2>
+        <hr>
+        <div class="logos p-2">
+        <i class="ri-facebook-fill p-2"></i><i class="ri-instagram-fill p-2"></i><i class="ri-twitter-x-fill p-2"></i><i class="ri-pinterest-fill p-2"></i><i class="ri-youtube-fill p-2"></i><i class="ri-tiktok-fill p-2"></i>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <div class="accordion accordion-flush d-sm-block d-md-none" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          HELP
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse ms-5" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">CHECK ORDER STATUS</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">RETURNS & EXCHANGES</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">SHIPPING & DELIVERY</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">SAFETY DATA SHEETS</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">PROMOTIONS</a>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          INFORMATION
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">SPECIAL OFFERS</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">WARRANTY</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">GLOSSARY</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">WHAT'S A BLOWOUT</a><br>        </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          ABOUT
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">CHECK ORDER STATUS</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">RETURNS & EXCHANGES</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">SHIPPING & DELIVERY</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">SAFETY DATA SHEETS</a><br>
+        <a href=""class="text-secondary text-decoration-none" style="font-size: 12px;">PROMOTIONS</a>
+        </div>
+    </div>
+  </div>
+</body>
+<script>
+
+
+const login = document.getElementById("login")
+
+
+login.addEventListener("submit", (e) => {
+    e.preventDefault()
+
+    let arr=JSON.parse(localStorage.getItem("data")) || []
+    let valid = true
+
+    const email = document.getElementById("email").value
+    const password = document.getElementById("password").value
+
+    let obj = {
+        email,
+        password
+    }
+    arr.push(obj)
+
+    if (email == "") {
+        valid = false
+        document.getElementById("emailerror").innerText = "Email is Required"
+    }
+    else {
+        document.getElementById("emailerror").innerText = ""
+    }
+
+    if (password == "") {
+        valid = false
+        document.getElementById("passerror").innerText = "Password is Required"
+    }
+    else {
+        document.getElementById("passerror").innerText = ""
+    }
+
+    if (valid) {
+        alert("Form Submitted...")
+        localStorage.setItem("data", JSON.stringify(arr))
+
+    }
+    else {
+        alert("User Not Filed Some Input Filed")
+    }
+})
+ </script>
+
+</html>

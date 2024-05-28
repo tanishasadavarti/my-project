@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>-g- Search</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Drybar-Holdings-Header" transform="translate(-1234.000000, -10.000000)" stroke="#231F20">
+            <g id="Shop-Header" transform="translate(0.000000, -1.000000)">
+                <g id="-g--Search" transform="translate(1235.000000, 12.000000)">
+                    <path d="M13.3501654,6.83870769 C13.3501654,10.4348615 10.4346654,13.3503615 6.83851154,13.3503615 C3.24235769,13.3503615 0.326857692,10.4348615 0.326857692,6.83870769 C0.326857692,3.24255385 3.24235769,0.327053846 6.83851154,0.327053846 C10.4346654,0.327053846 13.3501654,3.24255385 13.3501654,6.83870769 Z" id="Stroke-1"></path>
+                    <line x1="11.2743346" y1="11.5979231" x2="16.4560654" y2="16.7796538" id="Stroke-3" stroke-linecap="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
